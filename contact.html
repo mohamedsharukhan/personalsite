@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <link rel="stylesheet" href="./profile.css">
+
+    <style>
+        .child2 {
+            font-family: 'Charm', cursive;
+            font-size: 55px;
+            margin: 3vh 0vw 5vh 15vw;
+        }
+        .parant2 {
+    color: aliceblue;
+   
+    position: absolute;
+    top: 50vh;
+   
+}
+
+        .contact-item:nth-child(1) {
+            grid-area: one;
+
+        }
+
+        .contact-item:nth-child(2) {
+            grid-area: two;
+
+        }
+
+        .contact-item:nth-child(3) {
+            grid-area: three;
+
+
+        }
+
+        .contact-item:nth-child(4) {
+            grid-area: four;
+            background-color: rgb(252, 249, 249);
+            border-radius: 15%;
+
+        }
+
+        .contact-item {
+            color: rgb(230, 233, 233);
+            /* height: 4vh; */
+
+
+
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-areas:
+                'one two'
+                'three three'
+                'four four';
+            padding: 10px;
+
+            row-gap: 15%;
+            column-gap: 10%;
+            justify-content: center;
+            height: 100%;
+            height: 50vh;
+
+
+
+        }
+
+        .input {
+
+            height: 6vh;
+            background-color: rgb(239, 241, 241);
+            font-size: 10%;
+            width: 100%;
+            font-size: medium;
+            font-weight: 700;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .input2 {
+            border-radius: 10px;
+            background-color: rgb(239, 241, 241);
+            text-align: center;
+        }
+
+        .contact-tag {
+            text-align: center;
+            margin: 5%;
+        }
+
+        .contact-button {
+            background-color: rgb(22 66 99);
+            width: 12vw;
+            height: 6vh;
+            border-radius: 25px;
+            color: white;
+            text-align: center;
+            margin-left: 55%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- part1 -->
+    <div class="parant1" id="home">
+
+        <img src="./Website-Designing1.jpg" alt="" class="child1">
+
+        <div class="flex-container">
+
+            <div class="flex-item">
+                <a href="./profile.html "  class="item1">Home</a>
+            </div>
+
+            <div class="flex-item">
+                <a href="#about"  class="item1"> About</a>
+            </div>
+
+            <div class="flex-item">
+
+                <a href="./Services.html"  class="item1"> Services </a>
+            </div>
+
+            <div class="flex-item">
+
+                <select name="" id="" class="item1">
+                    <option class="option">Pages</option>
+                    <option class="option">link2</option>
+                    <option class="option">link3</option>
+
+                </select>
+
+            </div>
+
+            <div class="flex-item">
+
+                <a href="./contact.html" target="_blank" class="item1">Contact</a>
+
+            </div>
+
+
+            <div class="flex-item">
+
+                <!-- Hire me  -->
+                <a href="" class="item1 item2 button1">Hire Me</a>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="parant2">
+
+            <h1 class="child2">Contact Us</h1>
+
+
+
+            <h1 class="child2">Follow me on
+                <a href=""><img src="./facebook-new.png" alt="facebook" height="30vh" width="30vw"></a>
+
+                <a href=""><img src="./twitter.png" alt="twitter" height="30vh" width="30vw"></a>
+
+                <a href=""><img src="./instagram-new.png" alt="instagram" height="30vh" width="30vw"></a>
+
+                <a href=""><img src="./whatsapp.png" alt="whatsapp" height="30vh" width="30vw"></a>
+            </h1>
+
+
+
+        </div>
+        <img src="./banner.png" alt="" class="profile-pic">
+
+    </div>
+
+    <!-- part2 -->
+    <h1 class="contact-tag">Want To Get In Touch?</h1>
+
+
+    <div class="contact-container">
+
+        <div class="contact-item">
+            <input type="Name" name="Name" placeholder="Name" class="input">
+        </div>
+
+        <div class="contact-item">
+            <input type="email" name="" placeholder="Email" class="input">
+        </div>
+
+        <div class="contact-item">
+            <input type="number" name="" placeholder="Phone Number" class="input">
+        </div>
+
+        <div class="contact-item">
+            <textarea name="" id="textarea" cols="100%" rows="10" placeholder="Message" class="input2"></textarea>
+        </div>
+
+    </div>
+
+    <button type="button" class="contact-button">Submit Now</button>
+
+    </section>
+
+    <footer class="footer parant1 ">
+        <div class="footer-item">
+            <img src="./call.png.webp" alt="" height="25px" width="25px" class="footer-item1">
+            <a href="" class="footer-item1">8220095803</a>
+        </div>
+        <div class="footer-item">
+
+            <img src="./gmail.png" alt="" height="25px" width="25px" class="footer-item1">
+            <a href="" class="footer-item1">mohamedsharukhan19@gmail.com</a>
+
+        </div>
+        <div class="footer-item">
+
+            <address class="footer-item1">
+                <img src="./location.png.webp" alt="" height="25px" width="25px" class="footer-item1">
+                8/124 Kattuvilai,
+                Thiruvithamcode,
+                Kanniyakumari Dist,
+                Tamilnadu,
+                INDIA.
+
+            </address>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
